@@ -10,7 +10,8 @@ A modern end-to-end data warehousing and analytics solution following industry b
 
 This project implements a **Medallion Architecture** using **SQL Server** for storage and transformations, flowing from raw sources to consumption layers:
 
-![Data Architecture](image_111b29.png)
+![Data Architecture](<img width="1391" height="581" alt="Screenshot 2026-09-08 171245" src="https://github.com/user-attachments/assets/dbc8ebf8-e7d3-4f80-a936-3442c01bbbab" />
+)
 
 ### Architectural Layers
 * **Data Sources**: CSV files from **CRM** and **ERP** systems.
