@@ -44,7 +44,7 @@ This project implements a **Medallion Architecture** using **SQL Server** for st
 * **Tools Used**: SQL Server Express, SSMS, Draw.io, Git, Notion.
 
 ---
-
+***text
 ## 📂 Project Structure
 SQL-DWH-Project/
 │
@@ -83,7 +83,7 @@ SQL-DWH-Project/
 │
 ├── LICENSE
 └── README.md
-
+***
 ## 📜 License
 
 This project is licensed under the MIT License.
