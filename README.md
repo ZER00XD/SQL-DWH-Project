@@ -46,10 +46,39 @@ This project implements a **Medallion Architecture** using **SQL Server** for st
 ---
 
 ## 📂 Project Structure
-
-```text
-├── datasets/     # Raw ERP & CRM CSV files
-├── docs/         # Architecture diagrams, data catalog, & conventions
-├── scripts/      # ETL SQL scripts (bronze, silver, gold layers)
-├── tests/        # Quality assurance and validation scripts
+SQL-DWH-Project/
+│
+├── datasets/
+│   ├── source_crm/
+│   │   ├── cust_info.csv
+│   │   ├── prd_info.csv
+│   │   └── sales_details.csv
+│   │
+│   └── source_erp/
+│       ├── cust_az12.csv
+│       ├── loc_a101.csv
+│       └── px_cat_g1v2.csv
+│
+├── docs/
+│   ├── data_catalog.md
+│   ├── data_architecture.drawio
+│   └── naming_conventions.md
+│
+├── scripts/
+│   ├── bronze/
+│   │   ├── ddl_bronze.sql
+│   │   └── proc_load_bronze.sql
+│   │
+│   ├── silver/
+│   │   ├── ddl_silver.sql
+│   │   └── proc_load_silver.sql
+│   │
+│   └── gold/
+│       └── ddl_gold.sql
+│
+├── tests/
+│   ├── bronze/
+│   ├── silver/
+│   └── gold/
+│
 └── README.md
