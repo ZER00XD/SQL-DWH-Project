@@ -81,4 +81,11 @@ SQL-DWH-Project/
 │   ├── silver/
 │   └── gold/
 │
+├── LICENSE
 └── README.md
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+The MIT License is a permissive open-source license that allows others to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, provided that the original copyright and license notice are included.
